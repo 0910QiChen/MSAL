@@ -17,7 +17,8 @@
         "ClientId": "xxx",
         "Scope": "xxx"
       } 
-   4. add and use authentication service in Program.cs as
-      add: builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+   4. add authentication service in Program.cs as
+      builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
           .AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));
-      use: app.UseAuthentication();
+   5. use authentication service in Program.cs as
+      app.UseAuthentication();
