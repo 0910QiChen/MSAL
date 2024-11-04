@@ -11,12 +11,12 @@
       - Microsoft.AspNetCore.Authentication.JwtBearer
       - Microsoft.Identity.Web
    3. configure AzureAD in appsetting.json as
-      "AzureAd": 
+      "AzureAd":
         {"Instance": "https://login.microsoftonline.com/",
         "TenantId": "xxx",
         "ClientId": "xxx",
         "Scope": "xxx"
-      } 
+      }
    4. add authentication service in Program.cs as
       builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
           .AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));
