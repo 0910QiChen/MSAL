@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MSAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdbcd57e617664aba9d030a64cd4959d6893e07d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MSAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MSAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
